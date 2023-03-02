@@ -10,17 +10,20 @@
     href="https://images.unsplash.com/photo-1677462679593-97b817fb118a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80">
 
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-    }
+    /* * {
+      /* margin: 0;
+      padding: 0; */
+    /* } */
 
-    a {
+    */ a {
       padding: 10px;
       margin: 20px;
       text-decoration: none;
     }
-
+    /* .tb{
+      border: 1px solid red;
+      width: 400px;
+    } */
   </style>
 
 
@@ -32,7 +35,7 @@
   <header>
     <img
       src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJvb2t8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
-      alt="Логотип сайта" loading="lazy" title="Логотип сайта" width="500px">
+      alt="Логотип сайта" loading="lazy" title="Логотип сайта" width="300px">
     <nav>
       <a href="#">
         <strong>О нас</strong>
@@ -40,11 +43,11 @@
       <a href="#">
         <strong>Книги</strong>
       </a>
-      <a href="#">
+      <a href="./contacts.html">
         <strong>Контакты</strong>
       </a>
     </nav>
-  </header>
+  </header id="top">
   <!-- Основной контент -->
   <main>
     <section>
@@ -59,19 +62,57 @@
       <p>Lorem ipsum dolor sit amet.</p>
       <p>Lorem ipsum dolor sit amet.</p>
     </details>
-
-    <table border="1px">
-      <th>
-      <td>Продукт</td>
-      <td>Цена</td>
-      <td>Наличие</td>
-      </th>
+    <hr>
+    <table border="1px" style="width: 400px;">
+      <tr>
+        <th>Продукт</th>
+        <th>Цена</th>
+        <th>Наличие</th>
+      </tr>
       <tr>
         <td>Гарри Поттер</td>
         <td>150 сом</td>
-        <td>есть</td>
+        <td>Есть</td>
+      </tr>
+      <tr>
+        <td>Honey and Milk</td>
+        <td>190 сом</td>
+        <td>Наличие</td>
+      </tr>
+      <tr>
+        <td>Путь домой</td>
+        <td>250 сом</td>
+        <td>В наличие нет</td>
       </tr>
     </table>
+    <hr>
+
+    <section>
+      <h3>Отзывы</h3>
+
+        <!--Список-->
+        <ul type="square">
+          <li>Круто</li>
+          <li>Like</li>
+          <li>Супер</li>
+        </ul>
+        <hr>
+
+        <ol type="A">
+          <li>
+            <address>ул.Московская дом 5</address>
+          </li>
+          <li>
+            <address>ул.Донецкая дом 12</address>
+          </li>
+          <li>
+            <address>ул.Камская лом 9/5</address>
+          </li>
+        </ol>
+        <hr>
+    </section>
+
+    <a href="#top">На верх</a>
   </main>
   <!-- Подвал сайта -->
   <footer></footer>
